@@ -9,7 +9,6 @@ import csv
 import requests
 from newsapi import NewsApiClient
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-import time
 
 def get_ticker_price():
     price = requests.get('https://www.mercadobitcoin.net/api/BTC/ticker/')
